@@ -1,27 +1,14 @@
-// cout << "Press Enter 3 times to reveal your future.";
-// cout << "You will get A in this 261102.";
-
-#incloude<iostream>
-#include<fstream>
-#include<string>
+#include<iostream>
 #include<cstdlib>
 #include<ctime>
 using namespace std;
-
 int main(){
-string grade ;
-int x;
-x= rand(time(0))%9;
-if(x==0){
-    cout<"You will get A in this 261102."}
-    else if 
-    
-
-cout<< “Press Enter 3 times to reveal your future.”;
-cin.getline()
-cin.getline()
-cin.getline()
-
-
-cout<< “Press Enter 3 times to reveal your future.”;
+    srand(time(0));
+    string grade[] = {"A","B+","B","C+","C","D+","D","F","W"};
+    cout << "Press Enter 3 times to reveal your future.";
+    cin.get();
+    cin.get();
+    cin.get();
+    int x = rand()%9;
+    cout << "You will get " << grade[x] << " in this 261102." ;
 }
